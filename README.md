@@ -1,4 +1,4 @@
-## �� **Opsi 1: Deskripsi Singkat untuk README.md**
+## �� **README.md**
 
 ```markdown
 # 🎬 CHILL - Streaming Platform
