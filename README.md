@@ -1,23 +1,54 @@
-# React + Vite + Tailwind (Mission)
+## �� **Opsi 1: Deskripsi Singkat untuk README.md**
 
-Starter ini sudah siap untuk menerima HTML kamu dan di-slicing jadi komponen React.
+```markdown
+# 🎬 CHILL - Streaming Platform
 
-## Jalankan
+Platform streaming film dan series dengan fitur lengkap yang dibangun menggunakan React + Vite + Tailwind CSS.
+
+## ✨ Fitur Utama
+
+- �� **Player Film & Series** - Pemutar video dengan kontrol lengkap
+- �� **Profil Pengguna** - Edit profil dengan upload foto
+- 📚 **Riwayat Tonton** - Lanjutkan menonton dengan progress tracking
+- ❤️ **Daftar Saya** - Koleksi film dan series favorit
+- 💎 **Paket Langganan** - Pilihan paket Individual, Berdua, dan Keluarga
+- �� **Autentikasi** - Login dan registrasi pengguna
+
+## 🛠️ Teknologi
+
+- **Frontend:** React 18, Vite, Tailwind CSS
+- **State Management:** React Context API, useState, useRef
+- **Routing:** React Router DOM
+- **Storage:** LocalStorage untuk persistensi data
+- **Deployment:** Vercel
+
+## �� Cara Menjalankan
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Struktur
-- `src/pages` : Beranda, Masuk, Daftar (router sudah siap)
-- `src/index.css` : Tailwind directives + util classes
-- `tailwind.config.js` : `content` sudah sesuai untuk Vite
-- `src/components` : tambahkan komponen reusable di sini
-- `src/assets/img` : taruh gambar
+## �� Demo
 
-## Convert HTML → React
-1. Pindahkan aset ke `src/assets` dan update path.
-2. Ambil bagian UI (navbar, kartu, footer, dll.) dan buat komponen kecil.
-3. Ganti class CSS menjadi utility Tailwind (atau copy class dari HTML kamu jika sudah Tailwind).
-4. Tempelkan ke halaman terkait di `src/pages/*`.
+Live demo: [mission-fe2.vercel.app](https://mission-fe2.vercel.app)
+
+## 🎯 Fitur CRUD
+
+- **Watch History:** Create, Read, Update, Delete riwayat tontonan
+- **Watchlist:** Create, Read, Delete daftar favorit
+- **User Profile:** Update profil pengguna
+
+## 📁 Struktur Proyek
+
+```
+src/
+├── components/
+│   ├── atoms/          # Komponen kecil (Button, Input, Badge)
+│   ├── molecules/      # Komponen medium (Player, PosterCard)
+│   └── organisms/      # Komponen besar (Navbar, Footer, Forms)
+├── pages/              # Halaman aplikasi
+├── contexts/           # State management
+└── assets/             # Gambar dan aset
+```
+```
